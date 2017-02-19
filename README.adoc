@@ -1,0 +1,28 @@
+# YdsMobilProgramlama
+
+Wordpress uyumlu kişisel tema
+
+== Ekran Görüntüleri
+=== Login Ekranı
+:imagesdir: resimler
+image::1.png[300,300,align="center"]
+=== İlk Ekran
+image::2.png[300,300,align="center"]
+=== Profil Ekranı
+image::3.png[300,300,align="center"]
+=== İstatistik Ekranı
+image::4.png[300,300,align="center"]
+=== Profil Güncelleme Ekranı
+image::5.png[300,300,align="center"]
+=== Sınav Seçim Ekranı
+image::6.png[300,300,align="center"]
+=== Kategori Ekranı
+image::7.png[300,300,align="center"]
+=== Sınav Ekranı 1
+image::8.png[300,300,align="center"]
+=== Sınav Ekranı 2
+image::9.png[300,300,align="center"]
+=== Oturum Sınavı Ekranı
+
+ :: Aktif sınav yoksa "sınav bulunamadı" uyarısı verir.Eğer admin sınav eklerse yukaridaki sınav ekranına yönlendirir Katılan tüm kullanıcılar aynı sorulardan sınava girer.
+image::10.png[300,300,align="center"]
