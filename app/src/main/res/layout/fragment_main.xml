@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mcaner.fragment.MainActivity$PlaceholderFragment"
+    android:background="#ECEFF1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="soru 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titleTw"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contentTw"
+                    android:layout_weight="1"
+                    android:text="Life on a submarine may, to many people, soundfascinating. However, it is, in fact, horribly boring.Except for the commanding officers, a day aboard asubmarine consists of six hours on duty, six hoursoff, day after day, for months. This being the case, every effort is made to ensure that the lives of themen are as pleasant as possible. The meals areexceptionally good, and there is a daily film, shown ata specific time, on television around the submarine.In return, the crew is always expected to performperfectly all the time. A mistake is quite unforgivable.In fact, a favourite saying is “There’s room foreverything on a submarine except for a mistake”." />
+
+                <TextView
+                    android:text=" 9. We learn from the passage that, contrary to whata lot of people expect, ---.. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionTw"
+                    android:layout_weight="1"
+                    android:autoText="false"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="85dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aBtn"
+                            android:layout_gravity="center_vertical" />
+
+                        <TextView
+                            android:text="Dijital uygulamalara yapılan geçiş gazetecilik sektörünü olumsuz yönde etkilemiştir ve gelecekte bu sektörün ayakta kalabilmesi için kullanışlı İnternet modelleri oluşturulmalıdır"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aTw"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bBtn"
+                            android:layout_gravity="center_vertical" />
+
+                        <TextView
+                            android:text=" Gazetecilik sektörünün dijital uygulamalara geçiş sürecinden kötü bir şekilde etkilenmesinden dolayı gelecekte ayakta kalması ancak kullanışlı İnternet modellerinin yaratılmasıyla mümkün olacaktır."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bTw" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cBtn"
+                            android:layout_gravity="center_vertical" />
+
+                        <TextView
+                            android:text="Dijital uygulamalara geçiş gazetecilik sektörünü olumsuz bir şekilde etkilediğinden, bu sektörün gelecekte ayakta kalabilmesi için kullanışlı İnternet modelleri oluşturulması kaçınılmazdır."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cTw" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dBtn"
+                            android:layout_gravity="center_vertical" />
+
+                        <TextView
+                            android:text="Gazetecilik sektörü dijital uygulamalara yapılan geçişten olumsuz bir şekilde etkilenmiştir ve gelecekte ayakta kalması kullanışlı İnternet modelleri oluşturulmasına bağlıdır. "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/dTw" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/eBtn"
+                            android:layout_gravity="center_vertical" />
+
+                        <TextView
+                            android:text="Gazetecilik sektörü dijital uygulamalara geçiş yapamamaktan olumsuz yönde etkilenmiştir ve gelecekte kullanışlı İnternet modelleri oluşturulmadığı sürece var olması mümkün değildir"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/eTw" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

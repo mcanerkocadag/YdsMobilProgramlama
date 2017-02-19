@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECEFF1"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:text="SINAV SONUÇU:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dp">
+
+        <TextView
+            android:text="Doğru :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDogru"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Yanlış :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvYanlis"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Boş :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvBos"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Kalan Süre :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSure"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom|clip_vertical">
+
+        <Button
+            android:text="Ana Sayfaya Dön"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAnaSayfa"
+            android:layout_weight="0"
+            android:background="#546E7A"
+            android:textColor="#ECEFF1" />
+    </LinearLayout>
+
+</LinearLayout>

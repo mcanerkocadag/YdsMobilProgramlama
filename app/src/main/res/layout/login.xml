@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/imgTop"
+
+        android:layout_weight="0.8" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtUname"
+            android:layout_weight="1"
+            android:hint="Kullanıcı Adı"
+            android:gravity="bottom|center_vertical" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/edtPass"
+            android:layout_weight="1"
+            android:hint="Şifre"
+            android:gravity="bottom|center_vertical" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnlogin"
+                android:layout_weight="1"
+                android:text="Giriş"
+
+                android:textColor="#ECEFF1"
+                android:background="#546E7A" />
+
+            <Button
+                android:text="Kayıt Ol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnregister"
+                android:layout_weight="1"
+                android:background="#546E7A"
+                android:textColor="#ECEFF1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ECEFF1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnnextcategory"
+            android:layout_weight="0.5"
+            android:background="#546E7A"
+            android:textColor="#ECEFF1"
+
+            android:text="SINAV" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofilgit"
+            android:layout_weight="0.5"
+            android:background="#546E7A"
+            android:textColor="#ECEFF1"
+            android:layout_marginTop="10dp"
+            android:text="PROFİL" />
+    </LinearLayout>
+
+</LinearLayout>
